@@ -31,5 +31,5 @@ python scripts/create_vm.py
 
 I successfully automated the provisioning of a Linux-based administration server on Azure using Python and the Azure SDK. This process involved the programmatically defined creation of a Resource Group, Virtual Network (VNet), and Network Security Group (NSG) to ensure a secure environment. During deployment, I encountered real-world Cloud Capacity challenges where the requested VM size was unavailable in certain regions (SkuNotAvailable). I resolved this by performing a regional failover and re-configuring the infrastructure deployment for a more stable availability zone. The attached screenshot demonstrates a successful SSH connection to the live Ubuntu 24.04 LTS instance, where I utilized core Linux utilities (uname, df, free) to verify that the hardware specifications and kernel were correctly provisioned according to the deployment script.
 
-![Linux VM Verification](image-2.png)
+![Linux VM Verification](C:\Users\DELL G15\Roadmap-Azure-DevOps\Linux-Azure-Fundamentals\images\azure-vm-screenshot.png)
 *Figure 1: Verifying system resources and kernel version via SSH.*
