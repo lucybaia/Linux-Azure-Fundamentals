@@ -5,9 +5,9 @@ from azure.mgmt.network import NetworkManagementClient
 from azure.mgmt.compute import ComputeManagementClient
 
 # Configuration - Change these as needed
-SUBSCRIPTION_ID = "your-subscription-id-here"
+SUBSCRIPTION_ID = "c9e3892b-6798-439c-9848-e0a20a37970c"
 RESOURCE_GROUP = "RG-Linux-Fundamentals"
-LOCATION = "eastus"
+LOCATION = "brazilsouth"
 VM_NAME = "LinuxAdminServer"
 USERNAME = "azureuser"
 # Path to your public key (ensure setup.sh or your local machine has this)
