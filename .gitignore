@@ -1,0 +1,33 @@
+# --- Security & Secrets ---
+# Never track private keys or secrets 
+*.pem
+*.key
+*.pub
+secrets.json
+.env
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files 
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environments
+venv/
+env/
+.venv/
+
+# --- Azure & CLI ---
+# Azure CLI local state and logs [cite: 76]
+.azure/
+az_command_log.json
+*.lck
+
+# --- IDEs ---
+# VS Code settings [cite: 421]
+.vscode/
+.history/
+*.code-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
